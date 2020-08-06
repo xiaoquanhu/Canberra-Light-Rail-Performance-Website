@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<!-- This is the HEADER section.......................... -->
+  
+<head>
+  <meta charset="utf-8">
+  <title>Image maps</title>
+  <!-- this meta name is to identify website -->
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />
+</head>
+
+<!-- This is the BODY section............................ -->
+  
+<!-- This is my tag to open the body section of the webpage and my HTML attribute statement to change the background colour of the body  -->  
+<body>
+
+<!-- This is the explanation for image maps  -->  
+<h2>These are the image Maps</h2>
+<p>There are three clickable areas, Click on the stars and the vehicle, read more about the topic:</p>
+
+<!-- This is image  --> 
+<img src="pics/forimagemaps.jpg" alt="XiaoquanHu" usemap="#imgmaps" width="800">
+
+<!-- This are the maps  --> 
+<map name="imgmaps">
+<!-- This is the first tooltip  --> 
+  <div class="tooltip1">
+  	<area shape="circle" coords="125,360,35" alt="imgmap1" href="resourcelog.html">
+  	<span class="tooltiptext1">click to check the source log of my website</span>
+  </div>
+  <div class="tooltip2">
+  	<area shape="rect" coords="310,250,460,430" alt="imgmap2" href="index.html#imggallerydes">
+  	<span class="tooltiptext2">click to look at the photo gallery of light rail</span>
+  </div>
+  <div class="tooltip3">
+  	<area shape="circle" coords="655,105,35" alt="imgmap3" href="index.html#rating">
+  	<span class="tooltiptext3">click to see the user rating of my website</span>
+  </div>
+</map>
+<p>This photo is taken by XiaoquanHu</p>
+<a href="index.html">Back to homepage</a>
+
+<!-- Close body of webpage -->
+</body> 
+<!-- Close html-->
+</html>

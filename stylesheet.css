@@ -1,0 +1,775 @@
+/* This is my style sheet*/
+
+/* navigation bar division: format the bar generally including font background colour and style */
+
+/* little icon left of title */
+#tramview img {
+  width: 15vw;
+  float: left;
+  margin-left: 5vw;
+}
+
+#tramview h1   {
+  text-align: right;
+  margin-top: 50px;
+  margin-right: 15vw;
+  color: #4B2D1A;
+  font-weight: bold;
+  font-size: 300%;
+}
+
+/* navigation division: format area into one ralioused retangular */
+#navigation {
+  width: 95vw;
+  height: 5vw;
+  margin-left: 2.5vw;
+  font-size: 200%;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  background-color: #FFEBCD;
+  border-radius: 5vw;
+}
+
+/* navigation division: format the unordered list so that it appears directly below the title of the page and below the edge of the colour background */
+#navigation ul {
+  padding: 1vw;
+}
+
+/* navigation division: format the list items so that they display across the page instead of in a vertical list */
+#navigation li {
+  display: inline;
+  padding: 4vw;
+  color: #8B4513;
+  }
+
+/* navigation division: format the link items so that they are dark blue, spaced apart, and do not have underlines */
+#navigation a {
+    color: #8B4513;
+}
+
+/* navigation division: format the link items so that when hovering it, background color would change */
+#navigation li a:hover:not(.active) {
+  background-color: #F37061;
+  color: white;
+}
+
+div.clear {
+  clear: left;
+  height: 2vw;
+}
+
+/* gallery slides formating styles */
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  width: 80vw;
+  margin-left: 7vw;
+  position: relative;
+}
+
+#imggallerydes {
+  font-size: 150%;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  height: 35vw;
+  border-radius: 3vw;
+  background-color: lightgrey;
+}
+
+.mySlides img {
+  height: 30vw;
+  margin-top: 2.5vw;
+  margin-left: 25%;
+
+}
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top:38%;
+  width: 2vw;
+  padding: 1.5vw;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 1vw;
+  border-radius: 0.1vw 0 0 0.1vw;
+  user-select: none;
+  background-color: #F37061;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 0.1vw 0 0 0.1vw;
+}
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #8B4513;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 1.5vw;
+  padding: 3vw 5vw;
+  position: absolute;
+  margin-top: 3vw;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  border-radius: 2vw;
+  font-family: Tahoma, Geneva, sans-serif;
+  background-color: #FFEBCD;
+  padding: 2px;
+  color: #8B4513;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.4;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+/* passion intro: format the image to float left and the text on the right */
+#passion-intro img{
+  width: 35vw;
+  float: right;
+  margin-top: 3vw;
+  margin-right: 5vw;
+  margin-left: 1vw;
+}
+
+/* passion intro: format title in passion part */
+#passion-intro h3 {
+  font-size: 200%;
+  width: 50vw;
+  text-align: left;
+  margin-left: 8vw;
+}
+
+/* passion intro: format paragraph in passion part */
+#passion-intro p {
+  font-size: 120%;
+  width: 50vw;
+  text-align: left;
+  margin-left: 8vw;
+}
+
+/* passion intro: format list in passion part */
+#passion-intro ul {
+  list-style-position: inside;
+  font-size: 120%;
+  width: 50vw;
+  text-align: left;
+  margin-left: 10vw;
+  padding: 0vw;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 130%;
+}
+
+#passion-intro ul li {
+  padding: 0.3vw;}
+
+#passion-intro h6 {
+  font-size: 120%;
+  width: 50vw;
+  text-align: left;
+  margin-left: 8vw;
+  margin-top: 1vw;
+}
+
+
+#passion-intro2 img{
+  width: 33vw;
+  float: left;
+  margin-right: 3vw;
+  margin-left: 8vw;
+}
+
+#passion-intro2 p {
+  font-size: 120%;
+  margin-right: 8vw;
+  margin-top: 3vw;
+}
+
+#writemefeedback {
+  font-weight: bold;
+}
+
+#passion-intro2 h6 {
+  font-size: 120%;
+  margin-top: 1vw;
+}
+
+/* title bar: formating title bar in one rectangular to look like a bar */
+#introduction, #analytics, #feedback, #information {
+  width: 95vw;
+  height: 3.5vw;
+  margin-left: 2.5vw;
+  font-size: 200%;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  background-color: #FFEBCD;
+  border-radius: 5vw;
+}
+
+/* title bar: format the unordered list so that it appears directly below the title of the page and below the edge of the colour background */
+#introduction ul, #analytics ul, #feedback ul, #information ul {
+  padding: 0.2vw;
+}
+
+/* title bar: format the list items so that they display across the page instead of in a vertical list */
+#introduction li, #analytics li, #feedback li, #information li {
+  display: inline;
+  padding: 16%;
+  color: #8B4513;
+  }
+
+/* title bar: format the link items so that they are dark blue, spaced apart, and do not have underlines */
+#introduction a, #analytics a, #feedback a, #information a {
+    color: darkgrey;
+}
+
+/* title bar: format the link items so that when hovering it, background color would change */
+#introduction a:hover:not(.active), #analytics a:hover:not(.active), #feedback a:hover:not(.active), #information a:hover:not(.active){
+  background-color: #F37061;
+  color: white;
+}
+
+
+#processintro h2, #tripana h3, #delayana h3, #peakana h3, #stopana h3{
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+#processintro img{
+  width: 90vw;
+  margin-left: 5vw;
+}
+
+/* this is the formating for gallery part */
+div.gallery {
+  font-size: 150%;
+  border: 0.2vw solid #ccc;
+  border-radius: 1.5vw;
+  float: left;
+  width: 40vw;
+  margin-left: 6vw;
+  margin-top: 2vw;
+}
+
+div.gallery:hover {
+  color: white;
+  background-color: darkgrey;}
+
+div.gallery img {
+  width: 40vw;
+  height: auto;
+}
+
+div.gallery.desc {
+  margin-left: 3vw;
+  padding: 0.2vw;
+  text-align: center;
+}
+
+#stopanagallery {
+  font-size: 150%;
+  border: 0.2vw solid #ccc;
+  border-radius: 1.5vw;
+  float: left;
+  width: 86vw;
+  margin-left: 6vw;
+  margin-top: 2vw;
+}
+
+#stopanagallery:hover {
+  color: white;
+  background-color: darkgrey;}
+
+#stopanagallery img {
+  width: 86vw;
+  height: auto;
+}
+
+/* formating description part in gallery */
+#stopdesc {
+  margin-left: 8vw;
+  padding: 0.2vw;
+  text-align: center;
+}
+
+/* formating replyform sentence */
+#replyform p{
+  font-size: 150%;
+  margin-left: 7vw;
+  margin-right: 7vw;
+  font-weight: bold;
+}
+
+/* formatting rating part */
+
+#rating {
+  width: 85vw;
+  font-family: Tahoma, Geneva, sans-serif;
+  text-align: center;
+  font-size: 120%;
+  margin-left: 7vw;
+  background-color: #FFEBCD;
+}
+
+#ratingdescri {
+  padding-top: 3vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  font-size: 130%;
+  color: #8B4513;
+}
+
+#ratingscore {
+  font-size: 150%;
+}
+
+.barrow {
+  margin-top: 4vw;
+}
+
+
+/* Three column layout */
+.side {
+  float: left;
+  width: 15%;
+  margin-top: 10px;
+}
+
+.middle {
+  float: left;
+  width: 70%;
+  margin-top: 10px;
+}
+
+/* Place text to the right */
+.right {
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+.barrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The bar container */
+.bar-container {
+  width: 100%;
+  background-color: lightgrey;
+  text-align: center;
+  color: white;
+}
+
+/* Individual bars */
+#bar-5 {width: 50%; height: 0.7vw; background-color: #4CAF50;}
+#bar-4 {width: 25%; height: 0.7vw; background-color: #2196F3;}
+#bar-3 {width: 20%; height: 0.7vw; background-color: #00bcd4;}
+#bar-2 {width: 3%; height: 0.7vw; background-color: #ff9800;}
+#bar-1 {width: 2%; height: 0.7vw; background-color: #f44336;}
+
+
+#ratingbuttons {
+  margin-top: 1vw;
+  padding-bottom: 6vw;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 5px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button1:active {
+  background-color: #4CAF50;
+  transform: translateY(15px);
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 5px solid #2196F3;
+}
+
+.button2:hover {
+  background-color: #2196F3;
+  color: white;
+}
+.button2:active {
+  background-color: #2196F3;
+  transform: translateY(15px);
+}
+
+.button3 {
+  background-color: white; 
+  color: black; 
+  border: 5px solid #00bcd4;
+}
+
+.button3:hover {
+  background-color: #00bcd4;
+  color: white;
+}
+.button3:active {
+  background-color: #00bcd4;
+  transform: translateY(15px);
+}
+
+.button4 {
+  background-color: white;
+  color: black;
+  border: 5px solid #ff9800;
+}
+
+.button4:hover {
+  background-color: #ff9800; 
+  color: white;}
+.button4:active {
+  background-color: #ff9800;
+  transform: translateY(15px);
+}
+
+.button5 {
+  background-color: white;
+  color: black;
+  border: 5px solid #f44336;
+}
+
+.button5:hover {
+  background-color: #f44336;
+  color: white;
+}
+.button5:active {
+  background-color: #f44336;
+  transform: translateY(15px);
+}
+
+
+
+/* Our form formatting */
+#replyform form {
+  background: #FFE5DC;
+  font-size: 150%;
+  border: 0.2vw solid #ccc;
+  width: 80vw;
+  margin-left: 7vw;
+  border-radius: 1.5vw;
+  padding: 1vw;
+  text-align: center;
+}
+
+/* formating format text */
+#replyform input[type="text"] {
+  border: 0.06vw solid black;
+  width: 75vw;
+  margin-left: 2.5vw;
+  height: 2vw;
+}
+
+/* formating button text size */
+#replyform input[type="submit"], input[type="reset"] {
+  font-size: 500%;
+}
+
+/* formating textarea */
+#replyform textarea {
+  width: 75vw;
+  height: 5vw;
+  margin-left: 2.5vw;
+}
+
+/* formating the one sentence element */
+#forindent {
+  margin-left: 6vw;
+  margin-bottom: 0;
+}
+
+/* Our other-links formatting */
+#otherlinks {
+  margin-top: 0;
+  width: 70vw;
+  margin-left: 10vw;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+#otherlinks ul {
+  margin-top: 0;
+}
+
+#otherlinks li {
+  padding: 1vw;
+}
+
+#original1 {
+  margin-left: 7vw;
+  margin-right: 8vw;
+  font-size: 130%;
+  text-align: left;
+}
+
+/* passion intro: format the image to float left and the text on the right */
+#reflection {
+  margin-left: 7vw;
+  margin-right: 8vw;
+}
+#reflection img{
+  width: 35vw;
+  float: right;
+  margin-left: 0.3vw;
+}
+
+/* passion intro: format title in passion part */
+#reflection h3 {
+  font-size: 200%;
+  text-align: left;
+}
+
+/* passion intro: format paragraph in passion part */
+#reflection p {
+  font-size: 130%;
+  text-align: left;
+}
+
+#socialiconlist ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#socialiconlist li{
+  display: inline;
+  text-decoration: none;
+  padding: 32pt;
+}
+
+#socialfeed {
+  width: 45vw;
+  margin-left: 27.5vw;
+}
+
+#twittericon, #facebookicon, #githubicon {
+  width: 8vw;
+}
+
+
+/* Our table formatting in the resource.html*/
+
+/*Format our caption for greater visibility */
+#sourcelog caption {
+  font-size: 2vw;
+  font-weight: bold;
+  color: #4B2D1A;
+  margin-bottom:2vw;
+       }
+
+/*Format our table to have single line borders,
+some white space (90% width and margins), and make the
+background a different color. */
+#sourcelog {
+  border:0.5pt;
+}
+
+#sourcelog {
+  font-size: 2vw;
+  text-align: center;
+  border-collapse: collapse;
+  width: 75vw;
+  margin-left: 12.5vw;
+  border-width: 5pt;
+  background-color: #FFEBCD;
+}
+
+#sourcelog tr:hover {background-color: #f5f5f5;}
+
+/* Create internal space in the cells of the table. */
+
+#sourcelog th, td {
+  padding: 2vw;
+  border-width: 2pt;
+}
+
+/* Our site map formatting in the sitemap.html*/
+#titleline {
+  font-size: 120%;
+  width: 90vw;
+  margin-left: 7vw;
+}
+
+#arramap {
+  width: 90vw;
+  margin-left: 5vw;
+  border: none;
+}
+
+#arramap td{
+  height: 2vw;
+  vertical-align: top;
+}
+
+div.map1item {
+  margin-left: 2.5vw;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+div.map1item ul{
+  max-height: 2vw;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+div.map1item li{
+  margin-top: 1vw;
+}
+
+div.map1item a{
+  color: #5E286C;
+  font-size: 1.5vw;
+  text-decoration: none;
+}
+
+div.map1item li a:hover:not(.active) {
+  background-color: #F37061;
+  color: white;
+}
+
+/* format the tooltip */
+.tooltip1 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip1 .tooltiptext1 {
+  visibility: hidden;
+  width: 120px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: -330px;
+  left: -675px;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip1:hover .tooltiptext1 {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltip2 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip2 .tooltiptext2 {
+  visibility: hidden;
+  width: 120px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: -370px;
+  left: -400px;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip2:hover .tooltiptext2 {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltip3 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip3 .tooltiptext3 {
+  visibility: hidden;
+  width: 120px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: -550px;
+  left: -250px;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip3:hover .tooltiptext3 {
+  visibility: visible;
+  opacity: 1;
+}
